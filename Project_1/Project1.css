@@ -1,0 +1,59 @@
+/* This is a CSS comment.*/
+*{
+  box-sizing: border-box;
+}
+  
+body {
+	padding: 20px 10px;
+	font-family: Arial;
+	max-width: 2000px;
+	margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 16px;
+}      
+
+h1 {
+  	padding: 3px;
+  	background-color : #191970;
+  	color: white;
+  	font-family: Arial;
+  	font-size: 28px;
+    
+
+}
+
+h2 {
+  	padding: 3px;
+  	background-color : gray;
+  	color: white;
+  	font-family: Arial;
+  	font-size: 22px;
+
+}
+
+h3 {
+	color:black;
+  	font-size: 20px
+}
+
+li {
+  line-height: 28px; /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) */
+
+}
+
+.topic {
+  
+  background-color: white;
+  }
+
+.image {
+
+  padding: 10px;
+  
+  
+  
+}
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
