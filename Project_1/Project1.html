@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Project1.css">
+  <title> Rob's Notes - Intro to Programming </title>
+</head>
+<body>
+      <h1>Udacity Intro to Programming Nanodegree - Stage 1 Notes</h1>
+          <h2>The Basics of the Web</h2>
+    <div class = "topic">
+      <p>The Web is collection of hyperlinked documents written in Hypertext Markup Language (HTML).  The Web currently contains more than thirty billion pages.</p>
+       <h3>The Web is made up of:</h3>
+        <ul>
+          <li>You and your computer</li>
+          <li>Browser; a program that runs on your computer to display files found on the web</li>
+      	  <li>The Internet: The world's largest computer network</li>
+      	  <li>HTTP; the main protocol of the web</li>
+      	  <li>Servers; computers that host the files that make up the web</li>
+        </ul>
+    </div>
+      <h2>Hypertext Markup Language (HTML)</h2>
+    <div class = "topic">
+        <h3>HTML is made up of:</h3>
+          <ul>
+      	   <li>Text content; what you see
+           <li>Markup; what it looks like
+      	   <li>References to other documents; e.g. images and videos
+      	   <li>Links to other pages
+          </ul>
+        <h3> HTML Structure </h3> 
+             Using proper HTML structure is essential, as incorrect structure may result in the inability of a search engine to read the page. The structure is based on a hierarchy of elements and is refered to as the Document Object Model (DOM), or the document tree.
+             <div class = "image">
+               <img src = "modelDOM.png" alt="http://www.w3schools.com/js/js_htmldom_navigation.asp/pic htmltree.gif">
+             </div>
+        <h3> HTML Vocabulary</h3>
+          <ul>
+        	 <li>Tags; basic HTML syntax
+        	 <li>Elements; everything within a set of opening and closing tags
+       	   <li>In-line elements; all text rendered on a single line
+           <li>Block elements; essentially draws an "invisible box" around the text, with line breaks and spacing
+       	   <li>Attributes; a property of an HTML element.  For example, including href="www.google.com" in an anchor tag sets the href attribute to the Google URL.
+          </ul>
+        <h3>More on HTML tags:</h3>
+          <ul>
+          	 <li>Opening tags contained within angled brackets (the "less than" and "greater than" symbols)
+             <li>Closing tags are preceded by the "/" and contained within the angled brackets
+             <li>Void tags do not require a closing tag (the break tag, for example)
+              <li><u>The "div" tag is highly useful for organizing HTML, as it helps divide elements into sections where CSS styling can be applied to the sections.  This will allow for cleaner code, make it easier to change or update and avoid repetition.</u>
+          </ul>
+      	<h3>Some basic examples:</h3>
+         <ul>
+        	 <li>Bold: b, an in-line element
+        	 <li>Emphasis: em, this will italicize text, an in-line element
+        	 <li>Anchor: a, used for making links, an in-line element
+        	 <li>Image: img, embedding or attaching images, an in-line element
+        	 <li>Break: br, used to render multiple lines, an in-line element, despite rendering seperate lines
+        	 <li>Paragraph: p, formats text as paragraph, a block element
+         </ul>
+        <h3>A helpful visual: imagine a website as a house</h3>
+          <ul>
+      	   <li>HTML is the structure: where are the walls placed, what room is the living room
+       	   <li>CSS is the style: what color are the walls or carpeting, what kind of furniture you have
+           <li>Javascript is the interactive components: garage door opener, tv remote; they change something within the house
+          </ul>
+           The browser interprets and displays the HTML structure by turning HTML tags into elements in the DOM (tree); each tag creates an element in the DOM that the browser uses to create the page.  An element is created from a starting tag to the ending tag, with everything in between as content.
+    </div>
+     <h2> Cascading Style Sheets (CSS)</h2>
+    <div class = "topic">
+      <p> CSS is code written to control the style of the HTML elements.  There are three ways that CSS can be applied:</p>
+        <ul>
+          <li> Written into the head of the HTML; may be used for small projects</li>
+          <li> Written in-line with your HTML; very bad practice, as this leads to repeating code and makes it very difficult to change/update</li>
+          <li>Link HTML code to separate CSS file; <b>the preferred method</b>, especially when working on bigger projects.  <u>Allows for easier updating than other methods and avoids repeating code.</u></li>
+        </ul>
+      <h3> Inheritance</h3>
+      <p> Inheritance is a key feature of CSS, which relies on the document tree.  This nested hierarchy of elements provides for application of CSS properties from ancestor elements to decendant elements.  These are mainly applicable to text-related and not box-related properties. <u>Inhertiance provides for cleaner and more efficient code, as repetetive declarations can be avoided.</u>  This feature allows for faster loading web pages, with additional benefits to include decreased bandwidth and develpment costs.
+      </p>
+      <h3> Box Sizing </h3>  
+      HTML elements are boxes that have four components:
+      <ul>
+        <li>margin</li>
+          <li>border</li>
+          <li>padding</li>
+          <li>content</li>
+        </ul>
+        <div class="image">
+          <img src="modelBox.png" alt="http://www.w3schools.com/css/css_boxmodel.asp/box-model.gif">
+        </div>
+    </div>    
+</body>
